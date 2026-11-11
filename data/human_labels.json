@@ -1,0 +1,32 @@
+[
+ {
+  "id": 1,
+  "chunk_words": 200,
+  "faithfulness": 5,
+  "relevance": 5
+ },
+ {
+  "id": 2,
+  "chunk_words": 1000,
+  "faithfulness": 5,
+  "relevance": 5
+ },
+ {
+  "id": 7,
+  "chunk_words": 200,
+  "faithfulness": 5,
+  "relevance": 5
+ },
+ {
+  "id": 8,
+  "chunk_words": 1000,
+  "faithfulness": 5,
+  "relevance": 1
+ },
+ {
+  "id": 9,
+  "chunk_words": 200,
+  "faithfulness": 5,
+  "relevance": 1
+ }
+]

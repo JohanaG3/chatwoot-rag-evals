@@ -1,0 +1,52 @@
+[
+ {
+  "id": 1,
+  "question": "¿Cuál es la arquitectura detrás de Chatwoot?",
+  "expected": "Front en Vue, back en Ruby."
+ },
+ {
+  "id": 2,
+  "question": "¿Puedo tener un widget de chat en mi página web?",
+  "expected": "Debería poder funcionar en un widget a través de un webhook."
+ },
+ {
+  "id": 3,
+  "question": "¿Puedo definir indicadores y ver estadísticas de las conversaciones?",
+  "expected": "Sí se puede; falta ver cómo definen los indicadores."
+ },
+ {
+  "id": 4,
+  "question": "Si tengo una integración (un bot o agente) que responde en el chat, ¿cómo veo un registro (log) de las conversaciones para encontrar un error?",
+  "expected": "No sé."
+ },
+ {
+  "id": 5,
+  "question": "¿En qué influye el plan de pago? ¿Qué gano si pago?",
+  "expected": "Puedes consultar todos los planes en una URL."
+ },
+ {
+  "id": 6,
+  "question": "¿Puedo usar Chatwoot en el móvil?",
+  "expected": "Sí es posible."
+ },
+ {
+  "id": 7,
+  "question": "¿Cuáles son los métodos de pago? ¿Puedo pagar en bolívares?",
+  "expected": "No se puede (trampa: no debería estar en la documentación)."
+ },
+ {
+  "id": 8,
+  "question": "Si mi empresa tiene más de 10 mil clientes, ¿cómo manejamos todas las bandejas?",
+  "expected": "No sé."
+ },
+ {
+  "id": 9,
+  "question": "¿Puedo clasificar las conversaciones por grupo?",
+  "expected": "No sé."
+ },
+ {
+  "id": 10,
+  "question": "¿Puedo instalar Chatwoot en una Mac?",
+  "expected": "Debería poderse, creo."
+ }
+]

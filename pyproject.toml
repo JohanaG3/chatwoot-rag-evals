@@ -1,0 +1,12 @@
+[project]
+name = "chatwoot-rag-evals"
+version = "0.1.0"
+description = "RAG over Chatwoot's docs, with an eval set, a calibrated LLM judge and Langfuse tracing"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "chromadb>=1.5.9",
+    "google-genai>=3.0.0",
+    "httpx>=0.28.1",
+    "langfuse>=5.2.0",
+]

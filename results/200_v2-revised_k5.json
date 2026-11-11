@@ -1,0 +1,172 @@
+[
+ {
+  "id": 1,
+  "question": "¿Cuál es la arquitectura detrás de Chatwoot?",
+  "expected": "Front en Vue, back en Ruby.",
+  "answer": "Para ejecutar Chatwoot en producción, se requiere un conjunto de servicios que incluye servidores web, trabajadores (*workers*), bases de datos PostgreSQL y Redis, un servicio de correo electrónico y almacenamiento de objetos [1]. Además, la arquitectura se compone de componentes del sistema con sus interacciones, esquemas de bases de datos, consideraciones de escalabilidad y buenas prácticas de seguridad [2].",
+  "retrieved": [
+   "Chatwoot Production Deployment Guide",
+   "Welcome to Chatwoot Developer Docs",
+   "System Requirements",
+   "Cloudron Chatwoot deployment guide",
+   "Self-Hosted Installation Guide"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "La respuesta utiliza correctamente los servicios de producción descritos en el fragmento [1] y menciona los aspectos de la arquitectura indicados en el fragmento [2], respondiendo de forma precisa y totalmente fiel al texto proporcionado.",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 2,
+  "question": "¿Puedo tener un widget de chat en mi página web?",
+  "expected": "Debería poder funcionar en un widget a través de un webhook.",
+  "answer": "Sí, puedes añadir un widget de chat en directo a tu sitio web copiando y pegando el fragmento de código JavaScript proporcionado por Chatwoot en el archivo raíz de tu web [1, 3]. Además, la documentación incluye guías paso a paso específicas para integrar el widget en plataformas como Webflow [4] y WordPress [5].",
+  "retrieved": [
+   "Website live chat settings explained",
+   "Website live chat settings explained",
+   "Lesson 1: Your first Chatwoot conversation",
+   "How to install live chat on a Webflow website?",
+   "How to install live chat on a WordPress website?"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "La respuesta es totalmente correcta y directa, basándose en los fragmentos provistos sobre cómo añadir el widget de chat web, incluyendo las menciones a la instalación general y en plataformas como WordPress y Webflow.",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 3,
+  "question": "¿Puedo definir indicadores y ver estadísticas de las conversaciones?",
+  "expected": "Sí se puede; falta ver cómo definen los indicadores.",
+  "answer": "Sí, puedes ver estadísticas y métricas detalladas de las conversaciones en la sección de reportes de tu cuenta [5]. \nLos informes incluyen datos sobre el volumen de mensajes, el tiempo de primera respuesta y el tiempo de resolución [5]. \nTambién puedes analizar el rendimiento por agentes, etiquetas, bandejas de entrada y equipos [2].",
+  "retrieved": [
+   "How to read Overview Reports (realtime)?",
+   "How to read Conversations Reports?",
+   "Captain Overview and reports",
+   "Lesson 6: Reports and Metrics",
+   "How to read Conversations Reports?"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "La respuesta es totalmente fiel a los fragmentos proporcionados [2, 5] y responde con precisión a la pregunta sobre la visualización de estadísticas e indicadores de las conversaciones.",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 4,
+  "question": "Si tengo una integración (un bot o agente) que responde en el chat, ¿cómo veo un registro (log) de las conversaciones para encontrar un error?",
+  "expected": "No sé.",
+  "answer": "No encuentro en la documentación un registro o *log* específico de conversaciones de bots para encontrar errores, ya que los fragmentos solo mencionan registros de auditoría de cuentas, reglas de automatización, macros e inbox [1]. Sin embargo, la documentación sobre \"Troubleshoot Captain\" y los reportes de Captain ofrece guías para solucionar problemas de respuestas, fallos de herramientas, límites de uso y conocimiento faltante [2, 3, 4, 5].",
+  "retrieved": [
+   "How to use Audit Logs?",
+   "Troubleshoot Captain",
+   "Troubleshoot Captain",
+   "Captain Overview and reports",
+   "Troubleshoot Captain"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "El asistente indica honestamente que no encuentra un log específico de conversaciones para bots en los fragmentos (lo cual es correcto según [1]), y ofrece las alternativas de solución de problemas disponibles en los fragmentos [2, 3, 4, 5].",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 5,
+  "question": "¿En qué influye el plan de pago? ¿Qué gano si pago?",
+  "expected": "Puedes consultar todos los planes en una URL.",
+  "answer": "El plan de pago de la edición Enterprise ofrece opciones de soporte directo y acceso a funciones avanzadas y comerciales como Whitelabeling, gestión de SLA, registros de auditoría y gestión de capacidad de agentes [1, 4]. Además, cada plan de pago incluye créditos gratuitos mensuales de Captain AI para utilizar en funciones como respuestas de asistentes, transcripciones de audio y solicitudes de Copilot [5]. También permite actualizar fácilmente a características de pago sin necesidad de reinstalar el software [1, 4].",
+  "retrieved": [
+   "Enterprise Edition",
+   "Managing Enterprise Edition Features",
+   "Purchasing a Paid Self-Hosted Chatwoot License: A Step-by-Step Guide",
+   "Managing Enterprise Edition Features",
+   "Captain AI credits and usage"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "La respuesta aborda perfectamente lo que incluye y aporta el plan de pago basándose estrictamente en los fragmentos proporcionados (funciones avanzadas de Enterprise, soporte directo, créditos de Captain AI y facilidad de actualización).",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 6,
+  "question": "¿Puedo usar Chatwoot en el móvil?",
+  "expected": "Sí es posible.",
+  "answer": "Sí, puedes acceder a tu cuenta de Chatwoot en dispositivos móviles Android descargando la aplicación oficial desde Play Store [1]. También puedes utilizarla en dispositivos iOS instalando la app desde la App Store [2]. Además, es posible recibir notificaciones y usar deep linking en construcciones personalizadas de la aplicación móvil [4].",
+  "retrieved": [
+   "Mobile app for Android",
+   "Mobile app for iOS",
+   "How to install live-chat on a React Native app?",
+   "Custom Mobile App Build",
+   "How to install live-chat on a React Native app?"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "La respuesta es totalmente fiel a los fragmentos proporcionados, explicando cómo acceder desde Android e iOS y mencionando las notificaciones y deep linking, y responde de manera directa y completa a la pregunta.",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 7,
+  "question": "¿Cuáles son los métodos de pago? ¿Puedo pagar en bolívares?",
+  "expected": "No se puede (trampa: no debería estar en la documentación).",
+  "answer": "No encuentro información sobre los métodos de pago aceptados ni sobre la posibilidad de pagar en bolívares en la documentación proporcionada [1, 2, 3, 4, 5].",
+  "retrieved": [
+   "Purchasing a Paid Self-Hosted Chatwoot License: A Step-by-Step Guide",
+   "Purchasing a Paid Self-Hosted Chatwoot License: A Step-by-Step Guide",
+   "Supported Features on Channels",
+   "Frequently Asked Questions",
+   "How to Use Your Coupon Code on Chatwoot?"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "Los fragmentos no mencionan los metodos de pago ni los bolivares, y el asistente honestamente indica que no encuentra la informacion.",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 8,
+  "question": "Si mi empresa tiene más de 10 mil clientes, ¿cómo manejamos todas las bandejas?",
+  "expected": "No sé.",
+  "answer": "No lo encuentro en la documentación proporcionada [1, 2, 3, 4, 5].",
+  "retrieved": [
+   "Lesson 4: Automation and Routing",
+   "Lesson 1: Your first Chatwoot conversation",
+   "Lesson 3 (b): Working with Customer Context",
+   "Lesson 3 (b): Working with Customer Context",
+   "Lesson 3 (b): Working with Customer Context"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "Los fragmentos no mencionan cómo manejar bandejas para una empresa con más de 10 mil clientes, por lo que el asistente responde correctamente que no lo encuentra en la documentación.",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 9,
+  "question": "¿Puedo clasificar las conversaciones por grupo?",
+  "expected": "No sé.",
+  "answer": "No he encontrado información específica en la documentación sobre cómo clasificar las conversaciones por grupo. Sin embargo, puedes organizar y ordenar tus conversaciones usando filtros avanzados y guardarlas como carpetas en la barra lateral [1]. También existen cuatro opciones de ordenamiento disponibles: Actividad reciente, Hora de creación, Prioridad y Respuesta pendiente [3].",
+  "retrieved": [
+   "Group chats with filters, save as folders",
+   "How does sorting work?",
+   "How does sorting work?",
+   "How to use Conversation Filters?",
+   "How to use Conversation Filters?"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "El asistente responde correctamente y utiliza la información de los fragmentos. Aunque dice que no encuentra información sobre 'grupo' (y estrictamente no usa esa palabra exacta), ofrece la alternativa correcta de organizar y guardar conversaciones como carpetas y las opciones de ordenamiento, lo cual está totalmente respaldado por los fragmentos [1] y [3].",
+  "judge_model": "gemini-3.5-flash-lite"
+ },
+ {
+  "id": 10,
+  "question": "¿Puedo instalar Chatwoot en una Mac?",
+  "expected": "Debería poderse, creo.",
+  "answer": "Sí, puedes configurar tu entorno de desarrollo en macOS para contribuir a Chatwoot [3]. La guía de configuración para macOS incluye la instalación de herramientas esenciales y dependencias como Ruby, Node.js y PostgreSQL [1, 3, 5].",
+  "retrieved": [
+   "macOS Development Setup",
+   "macOS Development Setup",
+   "macOS Development Setup",
+   "System Requirements",
+   "Local Development Setup"
+  ],
+  "faithfulness": 5,
+  "relevance": 5,
+  "judge_reason": "La respuesta afirma correctamente que se puede configurar Chatwoot en Mac basándose en las guías de instalación y desarrollo para macOS proporcionadas en los fragmentos.",
+  "judge_model": "gemini-3.5-flash-lite"
+ }
+]
